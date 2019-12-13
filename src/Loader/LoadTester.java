@@ -12,14 +12,18 @@ public class LoadTester {
 		SubWayLoader subloader=new SubWayLoader();
 		Subway subway=subloader.loadFromFile(file);
 		System.out.println("testing starting now !!");
-		if(subway.hasStation("Umkl Walk")&&subway.hasStation("Lsp Lane"))System.out.println("test passed");
+		if(subway.hasStation("Uml Walk")&&subway.hasStation("Lsp Lane"))System.out.println("test passed");
 		else System.out.println("test failed");
 	
 	} catch (Exception e) {
 		e.printStackTrace();
 	}
+	
+	
 		
 		
 	}
 
+	public String testingLoadStation()
+	
 }
